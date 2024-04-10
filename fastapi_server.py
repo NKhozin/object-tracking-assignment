@@ -45,7 +45,6 @@ metric_dict = pickle.load(open("metric_dict.pickle", 'rb'))
 
 
 def calculate_distance_bbox(bbox1, bbox2):
-    #
     """
     Функция для вычисления расстояния между двумя bounding box
     """
