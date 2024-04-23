@@ -224,7 +224,7 @@ async def websocket_endpoint(websocket: WebSocket):
     next_track_id = 0
     prev_frame_objects = None
 
-    tracker = DeepSort(max_age=10, embedder='clip_ViT-B/16') #, max_iou_distance=0.8, max_cosine_distance=0.5,
+    tracker = DeepSort(max_age=10, embedder='clip_ViT-B/16')
 
     metric = {i: [] for i in range(country_balls_amount)}
 
